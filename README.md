@@ -5,9 +5,6 @@ Aplikasi web sederhana untuk membantu Anda merebus telur dengan tingkat kematang
 ---
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d40f5ac012230654d21explore/topics/html/html.png" alt="HTML Icon" width="150"/>
-</p>
-<p align="center">
   <i>Selalu dapatkan telur rebus dengan tingkat kematangan yang pas, dari setengah matang hingga matang sempurna.</i>
 </p>
 
@@ -48,12 +45,12 @@ Aplikasi ini dibangun dengan teknologi dasar web yang ringan dan cepat, tanpa me
 Untuk menjalankan proyek ini di lingkungan lokal Anda, cukup ikuti langkah-langkah sederhana berikut:
 
 1.  *Clone repository ini:*
-    sh
-    git clone https://github.com/hikmafathaby/perfect-egg-timer.git
-    
+    ```sh
+    git clone https://github.com/hikmafathaby/egg-timer.git
+    ```
 2.  **Masuk ke direktori proyek:**
     ```sh
-    cd perfect-egg-timer
+    cd egg-timer
     ```
 
 3.  **Install semua dependensi yang dibutuhkan:**
