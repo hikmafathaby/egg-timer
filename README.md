@@ -49,15 +49,26 @@ Untuk menjalankan proyek ini di lingkungan lokal Anda, cukup ikuti langkah-langk
 
 1.  *Clone repository ini:*
     sh
-    git clone [https://github.com/NAMA_USERMU/perfect-egg-timer.git](https://github.com/NAMA_USERMU/perfect-egg-timer.git)
+    git clone https://github.com/hikmafathaby/perfect-egg-timer.git
     
-2.  *Masuk ke direktori proyek:*
-    sh
+2.  **Masuk ke direktori proyek:**
+    ```sh
     cd perfect-egg-timer
-    
-3.  *Buka file index.html:*
-    Cukup buka file index.html langsung di browser favorit Anda (Google Chrome, Firefox, dll). Tidak ada proses instalasi atau build yang diperlukan.
+    ```
 
+3.  **Install semua dependensi yang dibutuhkan:**
+    ```sh
+    npm install
+    ```
+    *(atau `yarn install` jika Anda menggunakan Yarn)*
+
+4.  **Jalankan server development:**
+    ```sh
+    npm run dev
+    ```
+
+5.  **Buka aplikasi:**
+    Buka browser Anda dan kunjungi `http://localhost:3000`. Aplikasi Egg Timer siap digunakan!
 ---
 
 ## 🤝 Kontribusi
